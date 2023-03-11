@@ -52,7 +52,22 @@ class MainActivity : AppCompatActivity() {
             "2sd.jpg",
             "pl.jpg",
             "b8n.jpg",
-            "27i.jpg"
+            "27i.jpg",
+            "MTY2Nzg4MQ.jpg",
+            "552.jpg",
+            "MTg3MTgxMw.gif",
+            "4ua.jpg",
+            "5jf.jpg",
+            "nJsljkalm.jpg",
+            "asr.jpg",
+            "bo9.jpg",
+            "MTY2MTMzMQ.jpg",
+            "9sj.jpg",
+            "e1q.jpg",
+            "1a9.gif",
+            "bo6.jpg",
+            "cp0.jpg",
+            "tt01SNoSH.png"
         )
 
         Glide

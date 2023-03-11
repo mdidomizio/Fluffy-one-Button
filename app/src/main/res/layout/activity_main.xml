@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
-        android:text="@string/buttonName"
+        android:text="Give me a Fluffy Kitty!"
         android:textColor="@color/regality"
         android:backgroundTint="@color/transparent_green"
         app:layout_constraintBottom_toBottomOf="parent"
