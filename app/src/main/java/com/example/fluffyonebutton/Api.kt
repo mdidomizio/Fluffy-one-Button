@@ -10,5 +10,6 @@ object API {
         .baseUrl(BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
+
     val api: RandomPicAPI = retrofit.create(RandomPicAPI::class.java)
 }

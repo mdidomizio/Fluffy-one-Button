@@ -5,7 +5,6 @@ import retrofit2.http.GET
 import retrofit2.http.Headers
 
 interface RandomPicAPI {
-    @Headers()
-    @GET("photo/random")
+    @GET()
     fun getRandomPic(): Call<PhotoGalleryClass>
 }
