@@ -1,3 +1,3 @@
 package com.example.fluffyonebutton
 
-class PhotoGalleryClass (var url: String)
+class PhotoGalleryClass (var id: String, var url: String, var width: Int, var height: Int)

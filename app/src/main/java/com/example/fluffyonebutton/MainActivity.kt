@@ -27,11 +27,18 @@ class MainActivity : AppCompatActivity() {
 
         loadPicture()
     }
-
     private fun loadPicture(){
         Glide
             .with(this)
-            .load("https://api.thecatapi.com/v1/images/search?limit=10")
+            .load("https://cdn2.thecatapi.com/images/dia.jpg")
             .into(kittyPicture)
+    }
+
+    private fun randomPic(){
+        Glide
+            .with(holder.itemView)
+            .load(data[position].url)
+            .centerCrop()
+            .into(holder.picture)
     }
 }

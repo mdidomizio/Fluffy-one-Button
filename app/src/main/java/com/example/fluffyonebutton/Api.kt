@@ -3,8 +3,8 @@ package com.example.fluffyonebutton
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-object Api {
-    const val BASE_URL = "https://api.thecatapi.com/v1/images/search?limit=10"
+object API {
+    const val BASE_URL = "https://api.thecatapi.com/v1/images/search?format=json"
 
     private val retrofit = Retrofit.Builder()
         .baseUrl(BASE_URL)
